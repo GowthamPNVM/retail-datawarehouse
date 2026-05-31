@@ -1,0 +1,827 @@
+2026-05-30 15:13:36,955 - INFO - Warehouse pipeline started.
+2026-05-30 15:13:36,989 - INFO - Date dimension data created.
+2026-05-30 15:13:37,011 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 15:13:37,014 - INFO - Customer data extracted from CSV file.
+2026-05-30 15:13:37,017 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 15:13:37,026 - INFO - Productdata extracted from CSV file.
+2026-05-30 15:13:37,250 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 15:13:37,262 - INFO - Database connection closed after loading dim_customer table.
+2026-05-30 15:13:37,263 - INFO - Customer data loaded successfully.
+2026-05-30 15:13:37,293 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 15:13:37,297 - INFO - Database connection closed after loading dim_product table.
+2026-05-30 15:13:37,297 - INFO - Product data loaded successfully.
+2026-05-30 15:13:37,391 - INFO - Data loaded successfully into dim_date table.
+2026-05-30 15:13:37,396 - INFO - Database connection closed after loading dim_date table.
+2026-05-30 15:13:37,396 - INFO - Date dimension data loaded successfully.
+2026-05-30 15:13:37,396 - INFO - Warehouse pipeline completed.
+2026-05-30 15:36:59,304 - INFO - Warehouse pipeline started.
+2026-05-30 15:37:00,156 - INFO - Data extracted successfully from database.
+2026-05-30 15:37:00,166 - INFO - Existing customer data extracted from database.
+2026-05-30 15:37:00,166 - ERROR - Error in warehouse pipeline: name 'system' is not defined
+2026-05-30 15:37:00,167 - INFO - Warehouse pipeline completed.
+2026-05-30 15:37:52,322 - INFO - Warehouse pipeline started.
+2026-05-30 15:37:52,579 - INFO - Data extracted successfully from database.
+2026-05-30 15:37:52,593 - INFO - Existing customer data extracted from database.
+2026-05-30 15:37:52,593 - ERROR - Error in warehouse pipeline: name 'system' is not defined
+2026-05-30 15:37:52,593 - INFO - Warehouse pipeline completed.
+2026-05-30 15:43:55,612 - INFO - Warehouse pipeline started.
+2026-05-30 15:43:55,643 - INFO - Date dimension data created.
+2026-05-30 15:43:55,661 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 15:43:55,662 - INFO - Customer data extracted from CSV file.
+2026-05-30 15:43:55,664 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 15:43:55,670 - INFO - Productdata extracted from CSV file.
+2026-05-30 15:43:55,867 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 15:43:55,879 - INFO - Database connection closed after loading dim_customer table.
+2026-05-30 15:43:55,881 - INFO - Customer data loaded successfully.
+2026-05-30 15:43:55,912 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 15:43:55,914 - INFO - Database connection closed after loading dim_product table.
+2026-05-30 15:43:55,914 - INFO - Product data loaded successfully.
+2026-05-30 15:43:56,040 - ERROR - Error loading data into dim_date table: 1062 (23000): Duplicate entry '20240101' for key 'PRIMARY'
+2026-05-30 15:43:56,041 - INFO - Database connection closed after loading dim_date table.
+2026-05-30 15:43:56,041 - INFO - Date dimension data loaded successfully.
+2026-05-30 15:43:56,368 - INFO - Data extracted successfully from database.
+2026-05-30 15:43:56,376 - INFO - Existing customer data extracted from database: 30000 rows.
+2026-05-30 15:43:56,394 - INFO - Data extracted successfully from database.
+2026-05-30 15:43:56,400 - INFO - Existing product data extracted from database: 3000 rows.
+2026-05-30 15:43:56,417 - INFO - Data extracted successfully from database.
+2026-05-30 15:43:56,423 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 15:43:56,689 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 15:43:56,693 - INFO - Sales data extracted from CSV file.
+2026-05-30 15:43:56,693 - INFO - Warehouse pipeline completed.
+2026-05-30 15:48:07,878 - INFO - Warehouse pipeline started.
+2026-05-30 15:48:07,915 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 15:48:07,924 - ERROR - Error in warehouse pipeline: name 'sys' is not defined
+2026-05-30 15:48:07,924 - INFO - Warehouse pipeline completed.
+2026-05-30 15:49:31,524 - INFO - Warehouse pipeline started.
+2026-05-30 15:49:31,554 - INFO - Date dimension data created.
+2026-05-30 15:49:31,575 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 15:49:31,577 - INFO - Customer data extracted from CSV file.
+2026-05-30 15:49:31,580 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 15:49:31,585 - INFO - Productdata extracted from CSV file.
+2026-05-30 15:49:31,837 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 15:49:31,848 - INFO - Database connection closed after loading dim_customer table.
+2026-05-30 15:49:31,850 - INFO - Customer data loaded successfully.
+2026-05-30 15:49:31,879 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 15:49:31,884 - INFO - Database connection closed after loading dim_product table.
+2026-05-30 15:49:31,884 - INFO - Product data loaded successfully.
+2026-05-30 15:49:31,976 - INFO - Data loaded successfully into dim_date table.
+2026-05-30 15:49:32,019 - INFO - Database connection closed after loading dim_date table.
+2026-05-30 15:49:32,020 - INFO - Date dimension data loaded successfully.
+2026-05-30 15:49:32,238 - INFO - Data extracted successfully from database.
+2026-05-30 15:49:32,249 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 15:49:32,256 - INFO - Data extracted successfully from database.
+2026-05-30 15:49:32,263 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 15:49:32,278 - INFO - Data extracted successfully from database.
+2026-05-30 15:49:32,285 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 15:49:32,544 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 15:49:32,549 - INFO - Sales data extracted from CSV file.
+2026-05-30 15:49:32,549 - INFO - Warehouse pipeline completed.
+2026-05-30 16:02:12,794 - INFO - Warehouse pipeline started.
+2026-05-30 16:02:12,825 - INFO - Date dimension data created.
+2026-05-30 16:02:12,845 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 16:02:12,847 - INFO - Customer data extracted from CSV file.
+2026-05-30 16:02:12,849 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 16:02:12,854 - INFO - Productdata extracted from CSV file.
+2026-05-30 16:02:13,112 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 16:02:13,124 - INFO - Database connection closed after loading dim_customer table.
+2026-05-30 16:02:13,127 - INFO - Customer data loaded successfully.
+2026-05-30 16:02:13,161 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 16:02:13,165 - INFO - Database connection closed after loading dim_product table.
+2026-05-30 16:02:13,165 - INFO - Product data loaded successfully.
+2026-05-30 16:02:13,272 - INFO - Data loaded successfully into dim_date table.
+2026-05-30 16:02:13,276 - INFO - Database connection closed after loading dim_date table.
+2026-05-30 16:02:13,277 - INFO - Date dimension data loaded successfully.
+2026-05-30 16:02:13,494 - INFO - Data extracted successfully from database.
+2026-05-30 16:02:13,504 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:02:13,513 - INFO - Data extracted successfully from database.
+2026-05-30 16:02:13,523 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:02:13,541 - INFO - Data extracted successfully from database.
+2026-05-30 16:02:13,548 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:02:13,797 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:02:13,802 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:02:14,033 - ERROR - Error in warehouse pipeline: "['product_key', 'customer_key'] not in index"
+2026-05-30 16:02:14,058 - INFO - Warehouse pipeline completed.
+2026-05-30 16:03:57,950 - INFO - Warehouse pipeline started.
+2026-05-30 16:03:58,150 - INFO - Data extracted successfully from database.
+2026-05-30 16:03:58,160 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:03:58,168 - INFO - Data extracted successfully from database.
+2026-05-30 16:03:58,174 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:03:58,190 - INFO - Data extracted successfully from database.
+2026-05-30 16:03:58,196 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:03:58,473 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:03:58,477 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:03:58,477 - ERROR - Error in warehouse pipeline: cannot access local variable 'product_data' where it is not associated with a value
+2026-05-30 16:03:58,477 - INFO - Warehouse pipeline completed.
+2026-05-30 16:05:41,472 - INFO - Warehouse pipeline started.
+2026-05-30 16:05:41,675 - INFO - Data extracted successfully from database.
+2026-05-30 16:05:41,688 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:05:41,694 - INFO - Data extracted successfully from database.
+2026-05-30 16:05:41,701 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:05:41,717 - INFO - Data extracted successfully from database.
+2026-05-30 16:05:41,725 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:05:41,983 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:05:41,988 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:05:41,988 - ERROR - Error in warehouse pipeline: cannot access local variable 'product_data' where it is not associated with a value
+2026-05-30 16:05:41,988 - INFO - Warehouse pipeline completed.
+2026-05-30 16:07:45,449 - INFO - Warehouse pipeline started.
+2026-05-30 16:07:45,656 - INFO - Data extracted successfully from database.
+2026-05-30 16:07:45,666 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:07:45,672 - INFO - Data extracted successfully from database.
+2026-05-30 16:07:45,678 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:07:45,695 - INFO - Data extracted successfully from database.
+2026-05-30 16:07:45,701 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:07:46,007 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:07:46,011 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:07:46,304 - INFO - Fact table for sales data created.
+2026-05-30 16:07:46,304 - ERROR - Error in warehouse pipeline: name 'system' is not defined
+2026-05-30 16:07:46,305 - INFO - Warehouse pipeline completed.
+2026-05-30 16:14:14,751 - INFO - Warehouse pipeline started.
+2026-05-30 16:14:14,960 - INFO - Data extracted successfully from database.
+2026-05-30 16:14:14,971 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:14:14,978 - INFO - Data extracted successfully from database.
+2026-05-30 16:14:14,984 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:14:14,999 - INFO - Data extracted successfully from database.
+2026-05-30 16:14:15,006 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:14:15,263 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:14:15,268 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:14:15,352 - ERROR - Error in warehouse pipeline: Can only use .dt accessor with datetimelike values
+2026-05-30 16:14:15,353 - INFO - Warehouse pipeline completed.
+2026-05-30 16:16:00,553 - INFO - Warehouse pipeline started.
+2026-05-30 16:16:00,772 - INFO - Data extracted successfully from database.
+2026-05-30 16:16:00,782 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:16:00,790 - INFO - Data extracted successfully from database.
+2026-05-30 16:16:00,795 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:16:00,816 - INFO - Data extracted successfully from database.
+2026-05-30 16:16:00,823 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:16:01,137 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:16:01,141 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:16:01,242 - ERROR - Error in warehouse pipeline: Can only use .dt accessor with datetimelike values
+2026-05-30 16:16:01,243 - INFO - Warehouse pipeline completed.
+2026-05-30 16:18:49,895 - INFO - Warehouse pipeline started.
+2026-05-30 16:18:50,106 - INFO - Data extracted successfully from database.
+2026-05-30 16:18:50,120 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:18:50,128 - INFO - Data extracted successfully from database.
+2026-05-30 16:18:50,135 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:18:50,151 - INFO - Data extracted successfully from database.
+2026-05-30 16:18:50,158 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:18:50,416 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:18:50,420 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:18:50,508 - ERROR - Error in warehouse pipeline: strptime() argument 1 must be str, not Series
+2026-05-30 16:18:50,509 - INFO - Warehouse pipeline completed.
+2026-05-30 16:20:37,974 - INFO - Warehouse pipeline started.
+2026-05-30 16:20:38,168 - INFO - Data extracted successfully from database.
+2026-05-30 16:20:38,179 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:20:38,186 - INFO - Data extracted successfully from database.
+2026-05-30 16:20:38,192 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:20:38,207 - INFO - Data extracted successfully from database.
+2026-05-30 16:20:38,214 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:20:38,532 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:20:38,537 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:20:40,843 - INFO - Fact table for sales data created.
+2026-05-30 16:20:40,843 - ERROR - Error in warehouse pipeline: name 'system' is not defined
+2026-05-30 16:20:40,843 - INFO - Warehouse pipeline completed.
+2026-05-30 16:22:50,058 - INFO - Warehouse pipeline started.
+2026-05-30 16:22:50,263 - INFO - Data extracted successfully from database.
+2026-05-30 16:22:50,276 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:22:50,282 - INFO - Data extracted successfully from database.
+2026-05-30 16:22:50,288 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:22:50,309 - INFO - Data extracted successfully from database.
+2026-05-30 16:22:50,315 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:22:50,650 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:22:50,654 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:22:52,966 - INFO - Fact table for sales data created.
+2026-05-30 16:22:52,966 - ERROR - Error in warehouse pipeline: name 'system' is not defined
+2026-05-30 16:22:52,966 - INFO - Warehouse pipeline completed.
+2026-05-30 16:29:24,448 - INFO - Warehouse pipeline started.
+2026-05-30 16:29:24,668 - INFO - Data extracted successfully from database.
+2026-05-30 16:29:24,690 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:29:24,698 - INFO - Data extracted successfully from database.
+2026-05-30 16:29:24,706 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:29:24,723 - INFO - Data extracted successfully from database.
+2026-05-30 16:29:24,730 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:29:25,001 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:29:25,005 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:29:27,330 - INFO - Fact table for sales data created.
+2026-05-30 16:29:27,330 - ERROR - Error in warehouse pipeline: name 'system' is not defined
+2026-05-30 16:29:27,330 - INFO - Warehouse pipeline completed.
+2026-05-30 16:30:02,480 - INFO - Warehouse pipeline started.
+2026-05-30 16:30:02,686 - INFO - Data extracted successfully from database.
+2026-05-30 16:30:02,697 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:30:02,704 - INFO - Data extracted successfully from database.
+2026-05-30 16:30:02,710 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:30:02,726 - INFO - Data extracted successfully from database.
+2026-05-30 16:30:02,732 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:30:02,986 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:30:02,990 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:30:05,310 - INFO - Fact table for sales data created.
+2026-05-30 16:30:05,310 - ERROR - Error in warehouse pipeline: name 'system' is not defined
+2026-05-30 16:30:05,310 - INFO - Warehouse pipeline completed.
+2026-05-30 16:32:21,403 - INFO - Warehouse pipeline started.
+2026-05-30 16:32:21,609 - INFO - Data extracted successfully from database.
+2026-05-30 16:32:21,619 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:32:21,626 - INFO - Data extracted successfully from database.
+2026-05-30 16:32:21,631 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:32:21,646 - INFO - Data extracted successfully from database.
+2026-05-30 16:32:21,653 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:32:21,929 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:32:21,933 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:32:22,011 - ERROR - Error in warehouse pipeline: time data "21-07-2024" doesn't match format "%Y-%m-%d". You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2026-05-30 16:32:22,012 - INFO - Warehouse pipeline completed.
+2026-05-30 16:33:38,419 - INFO - Warehouse pipeline started.
+2026-05-30 16:33:38,618 - INFO - Data extracted successfully from database.
+2026-05-30 16:33:38,628 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:33:38,635 - INFO - Data extracted successfully from database.
+2026-05-30 16:33:38,641 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:33:38,656 - INFO - Data extracted successfully from database.
+2026-05-30 16:33:38,662 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:33:38,979 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:33:38,983 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:33:39,063 - ERROR - Error in warehouse pipeline: Can only use .dt accessor with datetimelike values
+2026-05-30 16:33:39,063 - INFO - Warehouse pipeline completed.
+2026-05-30 16:36:56,724 - INFO - Warehouse pipeline started.
+2026-05-30 16:36:56,933 - INFO - Data extracted successfully from database.
+2026-05-30 16:36:56,943 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 16:36:56,950 - INFO - Data extracted successfully from database.
+2026-05-30 16:36:56,956 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 16:36:56,973 - INFO - Data extracted successfully from database.
+2026-05-30 16:36:56,980 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 16:36:57,319 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 16:36:57,323 - INFO - Sales data extracted from CSV file.
+2026-05-30 16:37:00,558 - INFO - Fact table for sales data created.
+2026-05-30 16:37:00,558 - ERROR - Error in warehouse pipeline: name 'system' is not defined
+2026-05-30 16:37:00,558 - INFO - Warehouse pipeline completed.
+2026-05-30 19:31:38,926 - INFO - Warehouse pipeline started.
+2026-05-30 19:31:39,024 - INFO - Date dimension data created.
+2026-05-30 19:31:39,084 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 19:31:39,087 - INFO - Customer data extracted from CSV file.
+2026-05-30 19:31:39,112 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 19:31:39,122 - INFO - Productdata extracted from CSV file.
+2026-05-30 19:31:39,125 - INFO - Generated insert query for dim_customer: INSERT INTO dim_customer (customer_id,first_name,last_name,email,city,state,country,current_flag,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:31:39,131 - INFO - Data prepared for dim_customer with 10000 rows.
+2026-05-30 19:31:39,254 - INFO - Starting load for dim_customer: 10000 total rows.
+2026-05-30 19:31:39,558 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 19:31:39,558 - INFO - Database connection closed after loading dim_customer table.
+2026-05-30 19:31:39,559 - INFO - Customer data loaded successfully.
+2026-05-30 19:31:39,561 - INFO - Generated insert query for dim_product: INSERT INTO dim_product (product_id,product_name,category,price,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:31:39,563 - INFO - Data prepared for dim_product with 1000 rows.
+2026-05-30 19:31:39,566 - INFO - Starting load for dim_product: 1000 total rows.
+2026-05-30 19:31:39,597 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 19:31:39,597 - INFO - Database connection closed after loading dim_product table.
+2026-05-30 19:31:39,597 - INFO - Product data loaded successfully.
+2026-05-30 19:31:39,604 - INFO - Generated insert query for dim_date: INSERT INTO dim_date (full_date,day_name,month_name,month,quarter,year,date_key,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:31:39,606 - INFO - Data prepared for dim_date with 2557 rows.
+2026-05-30 19:31:39,614 - INFO - Starting load for dim_date: 2557 total rows.
+2026-05-30 19:31:39,696 - INFO - Data loaded successfully into dim_date table.
+2026-05-30 19:31:39,696 - INFO - Database connection closed after loading dim_date table.
+2026-05-30 19:31:39,697 - INFO - Date dimension data loaded successfully.
+2026-05-30 19:31:40,127 - INFO - Data extracted successfully from database.
+2026-05-30 19:31:40,142 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 19:31:40,154 - INFO - Data extracted successfully from database.
+2026-05-30 19:31:40,164 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 19:31:40,188 - INFO - Data extracted successfully from database.
+2026-05-30 19:31:40,199 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 19:31:40,519 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 19:31:40,525 - INFO - Sales data extracted from CSV file.
+2026-05-30 19:31:44,239 - INFO - Fact table for sales data created.
+2026-05-30 19:31:44,250 - INFO - Generated insert query for fact_sales: INSERT INTO fact_sales (customer_key,product_key,date_key,sale_amount,quantity,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:31:44,294 - INFO - Data prepared for fact_sales with 500000 rows.
+2026-05-30 19:31:45,733 - INFO - Starting load for fact_sales: 500000 total rows.
+2026-05-30 19:31:45,761 - ERROR - Error loading data into fact_sales table: 1054 (42S22): Unknown column 'nan' in 'VALUES'
+2026-05-30 19:31:45,761 - INFO - Database connection closed after loading fact_sales table.
+2026-05-30 19:31:45,847 - INFO - Fact sales data loaded successfully.
+2026-05-30 19:31:45,847 - INFO - Warehouse pipeline completed.
+2026-05-30 19:46:44,468 - INFO - Warehouse pipeline started.
+2026-05-30 19:46:44,508 - INFO - Date dimension data created.
+2026-05-30 19:46:44,537 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 19:46:44,540 - INFO - Customer data extracted from CSV file.
+2026-05-30 19:46:44,545 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 19:46:44,558 - INFO - Productdata extracted from CSV file.
+2026-05-30 19:46:44,565 - INFO - Generated insert query for dim_customer: INSERT INTO dim_customer (customer_id,first_name,last_name,email,city,state,country,current_flag,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:46:44,575 - INFO - Data prepared for dim_customer with 10000 rows.
+2026-05-30 19:46:44,656 - INFO - Starting load for dim_customer: 10000 total rows.
+2026-05-30 19:46:44,965 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 19:46:44,965 - INFO - Database cursor closed after processing dim_customer table.
+2026-05-30 19:46:44,967 - INFO - Customer data loaded successfully.
+2026-05-30 19:46:44,969 - INFO - Generated insert query for dim_product: INSERT INTO dim_product (product_id,product_name,category,price,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:46:44,970 - INFO - Data prepared for dim_product with 1000 rows.
+2026-05-30 19:46:44,972 - INFO - Starting load for dim_product: 1000 total rows.
+2026-05-30 19:46:44,999 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 19:46:44,999 - INFO - Database cursor closed after processing dim_product table.
+2026-05-30 19:46:45,000 - INFO - Product data loaded successfully.
+2026-05-30 19:46:45,007 - INFO - Generated insert query for dim_date: INSERT INTO dim_date (full_date,day_name,month_name,month,quarter,year,date_key,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:46:45,009 - INFO - Data prepared for dim_date with 2557 rows.
+2026-05-30 19:46:45,017 - INFO - Starting load for dim_date: 2557 total rows.
+2026-05-30 19:46:45,104 - INFO - Data loaded successfully into dim_date table.
+2026-05-30 19:46:45,104 - INFO - Database cursor closed after processing dim_date table.
+2026-05-30 19:46:45,104 - INFO - Date dimension data loaded successfully.
+2026-05-30 19:46:45,405 - INFO - Data extracted successfully from database.
+2026-05-30 19:46:45,416 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 19:46:45,427 - INFO - Data extracted successfully from database.
+2026-05-30 19:46:45,438 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 19:46:45,469 - INFO - Data extracted successfully from database.
+2026-05-30 19:46:45,478 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 19:46:45,860 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 19:46:45,867 - INFO - Sales data extracted from CSV file.
+2026-05-30 19:46:49,548 - INFO - Fact table for sales data created.
+2026-05-30 19:46:49,587 - INFO - Generated insert query for fact_sales: INSERT INTO fact_sales (customer_key,product_key,date_key,sale_amount,quantity,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:46:49,618 - INFO - Data prepared for fact_sales with 500000 rows.
+2026-05-30 19:46:50,985 - INFO - Starting load for fact_sales: 500000 total rows.
+2026-05-30 19:46:51,018 - ERROR - Error loading data into fact_sales table: 1054 (42S22): Unknown column 'sale_amount' in 'INSERT INTO'
+2026-05-30 19:46:51,018 - INFO - Database cursor closed after processing fact_sales table.
+2026-05-30 19:46:51,118 - INFO - Fact sales data loaded successfully.
+2026-05-30 19:46:51,118 - INFO - Warehouse pipeline completed.
+2026-05-30 19:48:42,060 - INFO - Warehouse pipeline started.
+2026-05-30 19:48:42,102 - INFO - Date dimension data created.
+2026-05-30 19:48:42,126 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 19:48:42,129 - INFO - Customer data extracted from CSV file.
+2026-05-30 19:48:42,132 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 19:48:42,138 - INFO - Productdata extracted from CSV file.
+2026-05-30 19:48:42,141 - INFO - Generated insert query for dim_customer: INSERT INTO dim_customer (customer_id,first_name,last_name,email,city,state,country,current_flag,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:48:42,145 - INFO - Data prepared for dim_customer with 10000 rows.
+2026-05-30 19:48:42,204 - INFO - Starting load for dim_customer: 10000 total rows.
+2026-05-30 19:48:42,541 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 19:48:42,541 - INFO - Database cursor closed after processing dim_customer table.
+2026-05-30 19:48:42,543 - INFO - Customer data loaded successfully.
+2026-05-30 19:48:42,545 - INFO - Generated insert query for dim_product: INSERT INTO dim_product (product_id,product_name,category,price,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:48:42,546 - INFO - Data prepared for dim_product with 1000 rows.
+2026-05-30 19:48:42,550 - INFO - Starting load for dim_product: 1000 total rows.
+2026-05-30 19:48:42,576 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 19:48:42,576 - INFO - Database cursor closed after processing dim_product table.
+2026-05-30 19:48:42,577 - INFO - Product data loaded successfully.
+2026-05-30 19:48:42,584 - INFO - Generated insert query for dim_date: INSERT INTO dim_date (full_date,day_name,month_name,month,quarter,year,date_key,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:48:42,586 - INFO - Data prepared for dim_date with 2557 rows.
+2026-05-30 19:48:42,593 - INFO - Starting load for dim_date: 2557 total rows.
+2026-05-30 19:48:42,675 - INFO - Data loaded successfully into dim_date table.
+2026-05-30 19:48:42,676 - INFO - Database cursor closed after processing dim_date table.
+2026-05-30 19:48:42,676 - INFO - Date dimension data loaded successfully.
+2026-05-30 19:48:42,969 - INFO - Data extracted successfully from database.
+2026-05-30 19:48:42,982 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 19:48:42,993 - INFO - Data extracted successfully from database.
+2026-05-30 19:48:42,999 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 19:48:43,030 - INFO - Data extracted successfully from database.
+2026-05-30 19:48:43,043 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 19:48:43,351 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 19:48:43,357 - INFO - Sales data extracted from CSV file.
+2026-05-30 19:48:47,047 - ERROR - Error in warehouse pipeline: "['sales_amount'] not in index"
+2026-05-30 19:48:47,057 - INFO - Warehouse pipeline completed.
+2026-05-30 19:54:56,429 - INFO - Warehouse pipeline started.
+2026-05-30 19:54:56,492 - INFO - Date dimension data created.
+2026-05-30 19:54:56,566 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 19:54:56,573 - INFO - Customer data extracted from CSV file.
+2026-05-30 19:54:56,579 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 19:54:56,594 - INFO - Productdata extracted from CSV file.
+2026-05-30 19:54:56,597 - INFO - Generated insert query for dim_customer: INSERT INTO dim_customer (customer_id,first_name,last_name,email,city,state,country,current_flag,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:54:56,603 - INFO - Data prepared for dim_customer with 10000 rows.
+2026-05-30 19:54:56,658 - INFO - Starting load for dim_customer: 10000 total rows.
+2026-05-30 19:54:56,892 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 19:54:56,892 - INFO - Database cursor closed after processing dim_customer table.
+2026-05-30 19:54:56,894 - INFO - Customer data loaded successfully.
+2026-05-30 19:54:56,895 - INFO - Generated insert query for dim_product: INSERT INTO dim_product (product_id,product_name,category,price,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:54:56,897 - INFO - Data prepared for dim_product with 1000 rows.
+2026-05-30 19:54:56,899 - INFO - Starting load for dim_product: 1000 total rows.
+2026-05-30 19:54:56,926 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 19:54:56,926 - INFO - Database cursor closed after processing dim_product table.
+2026-05-30 19:54:56,926 - INFO - Product data loaded successfully.
+2026-05-30 19:54:56,934 - INFO - Generated insert query for dim_date: INSERT INTO dim_date (full_date,day_name,month_name,month,quarter,year,date_key,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:54:56,935 - INFO - Data prepared for dim_date with 2557 rows.
+2026-05-30 19:54:56,943 - INFO - Starting load for dim_date: 2557 total rows.
+2026-05-30 19:54:56,981 - ERROR - Error loading data into dim_date table: 1062 (23000): Duplicate entry '20240101' for key 'PRIMARY'
+2026-05-30 19:54:56,981 - INFO - Database cursor closed after processing dim_date table.
+2026-05-30 19:54:56,982 - INFO - Date dimension data loaded successfully.
+2026-05-30 19:54:57,346 - INFO - Data extracted successfully from database.
+2026-05-30 19:54:57,357 - INFO - Existing customer data extracted from database: 20000 rows.
+2026-05-30 19:54:57,376 - INFO - Data extracted successfully from database.
+2026-05-30 19:54:57,384 - INFO - Existing product data extracted from database: 2000 rows.
+2026-05-30 19:54:57,410 - INFO - Data extracted successfully from database.
+2026-05-30 19:54:57,422 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 19:54:57,743 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 19:54:57,749 - INFO - Sales data extracted from CSV file.
+2026-05-30 19:55:02,763 - INFO - Fact table for sales data created.
+2026-05-30 19:55:02,824 - INFO - Generated insert query for fact_sales: INSERT INTO fact_sales (customer_key,product_key,date_key,sales_amount,quantity,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:55:02,878 - INFO - Data prepared for fact_sales with 888348 rows.
+2026-05-30 19:55:05,675 - INFO - Starting load for fact_sales: 888348 total rows.
+2026-05-30 19:55:05,723 - ERROR - Error loading data into fact_sales table: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sales_dw`.`fact_sales`, CONSTRAINT `FK_CustomerOrder` FOREIGN KEY (`customer_key`) REFERENCES `dim_customer` (`customer_key`))
+2026-05-30 19:55:05,724 - INFO - Database cursor closed after processing fact_sales table.
+2026-05-30 19:55:05,879 - INFO - Fact sales data loaded successfully.
+2026-05-30 19:55:05,879 - INFO - Warehouse pipeline completed.
+2026-05-30 19:55:47,837 - INFO - Warehouse pipeline started.
+2026-05-30 19:55:47,880 - INFO - Date dimension data created.
+2026-05-30 19:55:47,903 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 19:55:47,906 - INFO - Customer data extracted from CSV file.
+2026-05-30 19:55:47,910 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 19:55:47,915 - INFO - Productdata extracted from CSV file.
+2026-05-30 19:55:47,917 - INFO - Generated insert query for dim_customer: INSERT INTO dim_customer (customer_id,first_name,last_name,email,city,state,country,current_flag,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:55:47,920 - INFO - Data prepared for dim_customer with 10000 rows.
+2026-05-30 19:55:47,965 - INFO - Starting load for dim_customer: 10000 total rows.
+2026-05-30 19:55:48,275 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 19:55:48,275 - INFO - Database cursor closed after processing dim_customer table.
+2026-05-30 19:55:48,277 - INFO - Customer data loaded successfully.
+2026-05-30 19:55:48,279 - INFO - Generated insert query for dim_product: INSERT INTO dim_product (product_id,product_name,category,price,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:55:48,281 - INFO - Data prepared for dim_product with 1000 rows.
+2026-05-30 19:55:48,284 - INFO - Starting load for dim_product: 1000 total rows.
+2026-05-30 19:55:48,311 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 19:55:48,312 - INFO - Database cursor closed after processing dim_product table.
+2026-05-30 19:55:48,312 - INFO - Product data loaded successfully.
+2026-05-30 19:55:48,319 - INFO - Generated insert query for dim_date: INSERT INTO dim_date (full_date,day_name,month_name,month,quarter,year,date_key,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:55:48,321 - INFO - Data prepared for dim_date with 2557 rows.
+2026-05-30 19:55:48,327 - INFO - Starting load for dim_date: 2557 total rows.
+2026-05-30 19:55:48,406 - INFO - Data loaded successfully into dim_date table.
+2026-05-30 19:55:48,406 - INFO - Database cursor closed after processing dim_date table.
+2026-05-30 19:55:48,406 - INFO - Date dimension data loaded successfully.
+2026-05-30 19:55:48,670 - INFO - Data extracted successfully from database.
+2026-05-30 19:55:48,683 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 19:55:48,694 - INFO - Data extracted successfully from database.
+2026-05-30 19:55:48,703 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 19:55:48,731 - INFO - Data extracted successfully from database.
+2026-05-30 19:55:48,740 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 19:55:49,040 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 19:55:49,046 - INFO - Sales data extracted from CSV file.
+2026-05-30 19:55:52,748 - INFO - Fact table for sales data created.
+2026-05-30 19:55:52,793 - INFO - Generated insert query for fact_sales: INSERT INTO fact_sales (customer_key,product_key,date_key,sales_amount,quantity,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:55:52,829 - INFO - Data prepared for fact_sales with 500000 rows.
+2026-05-30 19:55:54,252 - INFO - Starting load for fact_sales: 500000 total rows.
+2026-05-30 19:56:05,924 - INFO - Data loaded successfully into fact_sales table.
+2026-05-30 19:56:05,924 - INFO - Database cursor closed after processing fact_sales table.
+2026-05-30 19:56:05,999 - INFO - Fact sales data loaded successfully.
+2026-05-30 19:56:05,999 - INFO - Warehouse pipeline completed.
+2026-05-30 19:57:50,942 - INFO - Warehouse pipeline started.
+2026-05-30 19:57:51,005 - INFO - Date dimension data created.
+2026-05-30 19:57:51,031 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 19:57:51,033 - INFO - Customer data extracted from CSV file.
+2026-05-30 19:57:51,036 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 19:57:51,042 - INFO - Productdata extracted from CSV file.
+2026-05-30 19:57:51,044 - INFO - Generated insert query for dim_customer: INSERT INTO dim_customer (customer_id,first_name,last_name,email,city,state,country,current_flag,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:57:51,048 - INFO - Data prepared for dim_customer with 10000 rows.
+2026-05-30 19:57:51,150 - INFO - Starting load for dim_customer: 10000 total rows.
+2026-05-30 19:57:51,442 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 19:57:51,443 - INFO - Database cursor closed after processing dim_customer table.
+2026-05-30 19:57:51,445 - INFO - Customer data loaded successfully.
+2026-05-30 19:57:51,447 - INFO - Generated insert query for dim_product: INSERT INTO dim_product (product_id,product_name,category,price,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:57:51,449 - INFO - Data prepared for dim_product with 1000 rows.
+2026-05-30 19:57:51,451 - INFO - Starting load for dim_product: 1000 total rows.
+2026-05-30 19:57:51,474 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 19:57:51,474 - INFO - Database cursor closed after processing dim_product table.
+2026-05-30 19:57:51,475 - INFO - Product data loaded successfully.
+2026-05-30 19:57:51,482 - INFO - Generated insert query for dim_date: INSERT INTO dim_date (full_date,day_name,month_name,month,quarter,year,date_key,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:57:51,483 - INFO - Data prepared for dim_date with 2557 rows.
+2026-05-30 19:57:51,492 - INFO - Starting load for dim_date: 2557 total rows.
+2026-05-30 19:57:51,560 - INFO - Data loaded successfully into dim_date table.
+2026-05-30 19:57:51,561 - INFO - Database cursor closed after processing dim_date table.
+2026-05-30 19:57:51,561 - INFO - Date dimension data loaded successfully.
+2026-05-30 19:57:51,861 - INFO - Data extracted successfully from database.
+2026-05-30 19:57:51,875 - INFO - Existing customer data extracted from database: 10000 rows.
+2026-05-30 19:57:51,890 - INFO - Data extracted successfully from database.
+2026-05-30 19:57:51,901 - INFO - Existing product data extracted from database: 1000 rows.
+2026-05-30 19:57:51,932 - INFO - Data extracted successfully from database.
+2026-05-30 19:57:51,944 - INFO - Existing date data extracted from database: 2557 rows.
+2026-05-30 19:57:52,251 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 19:57:52,257 - INFO - Sales data extracted from CSV file.
+2026-05-30 19:57:55,916 - INFO - Fact table for sales data created.
+2026-05-30 19:57:55,962 - INFO - Generated insert query for fact_sales: INSERT INTO fact_sales (customer_key,product_key,date_key,sales_amount,quantity,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 19:57:55,998 - INFO - Data prepared for fact_sales with 500000 rows.
+2026-05-30 19:57:57,429 - INFO - Starting load for fact_sales: 500000 total rows.
+2026-05-30 19:57:57,457 - ERROR - Error loading data into fact_sales table: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sales_dw`.`fact_sales`, CONSTRAINT `FK_CustomerOrder` FOREIGN KEY (`customer_key`) REFERENCES `dim_customer` (`customer_key`))
+2026-05-30 19:57:57,458 - INFO - Database cursor closed after processing fact_sales table.
+2026-05-30 19:57:57,551 - INFO - Fact sales data loaded successfully.
+2026-05-30 19:57:57,551 - INFO - Warehouse pipeline completed.
+2026-05-30 20:02:18,975 - INFO - Warehouse pipeline started.
+2026-05-30 20:02:19,017 - INFO - Date dimension data created.
+2026-05-30 20:02:19,047 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-30 20:02:19,050 - INFO - Customer data extracted from CSV file.
+2026-05-30 20:02:19,054 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-30 20:02:19,066 - INFO - Productdata extracted from CSV file.
+2026-05-30 20:02:19,070 - INFO - Generated insert query for dim_customer: INSERT INTO dim_customer (customer_id,first_name,last_name,email,city,state,country,current_flag,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 20:02:19,078 - INFO - Data prepared for dim_customer with 10000 rows.
+2026-05-30 20:02:19,155 - INFO - Starting load for dim_customer: 10000 total rows.
+2026-05-30 20:02:19,504 - INFO - Data loaded successfully into dim_customer table.
+2026-05-30 20:02:19,504 - INFO - Database cursor closed after processing dim_customer table.
+2026-05-30 20:02:19,506 - INFO - Customer data loaded successfully.
+2026-05-30 20:02:19,507 - INFO - Generated insert query for dim_product: INSERT INTO dim_product (product_id,product_name,category,price,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 20:02:19,509 - INFO - Data prepared for dim_product with 1000 rows.
+2026-05-30 20:02:19,512 - INFO - Starting load for dim_product: 1000 total rows.
+2026-05-30 20:02:19,533 - INFO - Data loaded successfully into dim_product table.
+2026-05-30 20:02:19,533 - INFO - Database cursor closed after processing dim_product table.
+2026-05-30 20:02:19,534 - INFO - Product data loaded successfully.
+2026-05-30 20:02:19,540 - INFO - Generated insert query for dim_date: INSERT INTO dim_date (full_date,day_name,month_name,month,quarter,year,date_key,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 20:02:19,542 - INFO - Data prepared for dim_date with 2557 rows.
+2026-05-30 20:02:19,549 - INFO - Starting load for dim_date: 2557 total rows.
+2026-05-30 20:02:19,616 - INFO - Data loaded successfully into dim_date table.
+2026-05-30 20:02:19,616 - INFO - Database cursor closed after processing dim_date table.
+2026-05-30 20:02:19,617 - INFO - Date dimension data loaded successfully.
+2026-05-30 20:02:19,894 - INFO - Data extracted successfully from database.
+2026-05-30 20:02:19,909 - INFO - Existing customer data extracted from database: 10001 rows.
+2026-05-30 20:02:19,924 - INFO - Data extracted successfully from database.
+2026-05-30 20:02:19,939 - INFO - Existing product data extracted from database: 1001 rows.
+2026-05-30 20:02:19,964 - INFO - Data extracted successfully from database.
+2026-05-30 20:02:19,975 - INFO - Existing date data extracted from database: 2558 rows.
+2026-05-30 20:02:20,278 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-30 20:02:20,285 - INFO - Sales data extracted from CSV file.
+2026-05-30 20:02:23,976 - INFO - Fact table for sales data created.
+2026-05-30 20:02:24,021 - INFO - Generated insert query for fact_sales: INSERT INTO fact_sales (customer_key,product_key,date_key,sales_amount,quantity,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-30 20:02:24,054 - INFO - Data prepared for fact_sales with 500000 rows.
+2026-05-30 20:02:25,453 - INFO - Starting load for fact_sales: 500000 total rows.
+2026-05-30 20:02:37,285 - INFO - Data loaded successfully into fact_sales table.
+2026-05-30 20:02:37,285 - INFO - Database cursor closed after processing fact_sales table.
+2026-05-30 20:02:37,367 - INFO - Fact sales data loaded successfully.
+2026-05-30 20:02:37,367 - INFO - Warehouse pipeline completed.
+2026-05-31 12:27:36,693 - INFO - Warehouse pipeline started.
+2026-05-31 12:27:36,756 - INFO - Date dimension data created.
+2026-05-31 12:27:36,793 - INFO - Data extracted successfully from data/raw/customers.csv.
+2026-05-31 12:27:36,795 - INFO - Customer data extracted from CSV file.
+2026-05-31 12:27:36,799 - INFO - Data extracted successfully from data/raw/products.csv.
+2026-05-31 12:27:36,807 - INFO - Productdata extracted from CSV file.
+2026-05-31 12:27:36,810 - INFO - Generated insert query for dim_customer: INSERT INTO dim_customer (customer_id,first_name,last_name,email,city,state,country,current_flag,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-31 12:27:36,814 - INFO - Data prepared for dim_customer with 10000 rows.
+2026-05-31 12:27:36,902 - INFO - Starting load for dim_customer: 10000 total rows.
+2026-05-31 12:27:37,007 - INFO - Data loaded successfully into dim_customer table. Batch 1 of 5 completed. Rows loaded so far: 2000 of 10000.
+2026-05-31 12:27:37,076 - INFO - Data loaded successfully into dim_customer table. Batch 2 of 5 completed. Rows loaded so far: 4000 of 10000.
+2026-05-31 12:27:37,127 - INFO - Data loaded successfully into dim_customer table. Batch 3 of 5 completed. Rows loaded so far: 6000 of 10000.
+2026-05-31 12:27:37,169 - INFO - Data loaded successfully into dim_customer table. Batch 4 of 5 completed. Rows loaded so far: 8000 of 10000.
+2026-05-31 12:27:37,210 - INFO - Data loaded successfully into dim_customer table. Batch 5 of 5 completed. Rows loaded so far: 10000 of 10000.
+2026-05-31 12:27:37,211 - INFO - Data loaded successfully into dim_customer table.
+2026-05-31 12:27:37,211 - INFO - Database cursor closed after processing dim_customer table.
+2026-05-31 12:27:37,212 - INFO - Customer data loaded successfully.
+2026-05-31 12:27:37,214 - INFO - Generated insert query for dim_product: INSERT INTO dim_product (product_id,product_name,category,price,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-31 12:27:37,215 - INFO - Data prepared for dim_product with 1000 rows.
+2026-05-31 12:27:37,218 - INFO - Starting load for dim_product: 1000 total rows.
+2026-05-31 12:27:37,242 - INFO - Data loaded successfully into dim_product table. Batch 1 of 1 completed. Rows loaded so far: 1000 of 1000.
+2026-05-31 12:27:37,242 - INFO - Data loaded successfully into dim_product table.
+2026-05-31 12:27:37,242 - INFO - Database cursor closed after processing dim_product table.
+2026-05-31 12:27:37,243 - INFO - Product data loaded successfully.
+2026-05-31 12:27:37,250 - INFO - Generated insert query for dim_date: INSERT INTO dim_date (full_date,day_name,month_name,month,quarter,year,date_key,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-31 12:27:37,252 - INFO - Data prepared for dim_date with 2557 rows.
+2026-05-31 12:27:37,262 - INFO - Starting load for dim_date: 2557 total rows.
+2026-05-31 12:27:37,346 - INFO - Data loaded successfully into dim_date table. Batch 1 of 2 completed. Rows loaded so far: 2000 of 2557.
+2026-05-31 12:27:37,364 - INFO - Data loaded successfully into dim_date table. Batch 2 of 2 completed. Rows loaded so far: 2557 of 2557.
+2026-05-31 12:27:37,364 - INFO - Data loaded successfully into dim_date table.
+2026-05-31 12:27:37,364 - INFO - Database cursor closed after processing dim_date table.
+2026-05-31 12:27:37,365 - INFO - Date dimension data loaded successfully.
+2026-05-31 12:27:37,686 - INFO - Data extracted successfully from database.
+2026-05-31 12:27:37,709 - INFO - Existing customer data extracted from database: 10001 rows.
+2026-05-31 12:27:37,723 - INFO - Data extracted successfully from database.
+2026-05-31 12:27:37,734 - INFO - Existing product data extracted from database: 1001 rows.
+2026-05-31 12:27:37,757 - INFO - Data extracted successfully from database.
+2026-05-31 12:27:37,770 - INFO - Existing date data extracted from database: 2558 rows.
+2026-05-31 12:27:38,084 - INFO - Data extracted successfully from data/raw/sales.csv.
+2026-05-31 12:27:38,091 - INFO - Sales data extracted from CSV file.
+2026-05-31 12:27:42,223 - INFO - Fact table for sales data created.
+2026-05-31 12:27:42,288 - INFO - Generated insert query for fact_sales: INSERT INTO fact_sales (customer_key,product_key,date_key,sales_amount,quantity,created_date,created_by,updated_date,updated_by) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+2026-05-31 12:27:42,345 - INFO - Data prepared for fact_sales with 500000 rows.
+2026-05-31 12:27:44,198 - INFO - Starting load for fact_sales: 500000 total rows.
+2026-05-31 12:27:44,265 - INFO - Data loaded successfully into fact_sales table. Batch 1 of 250 completed. Rows loaded so far: 2000 of 500000.
+2026-05-31 12:27:44,333 - INFO - Data loaded successfully into fact_sales table. Batch 2 of 250 completed. Rows loaded so far: 4000 of 500000.
+2026-05-31 12:27:44,406 - INFO - Data loaded successfully into fact_sales table. Batch 3 of 250 completed. Rows loaded so far: 6000 of 500000.
+2026-05-31 12:27:44,472 - INFO - Data loaded successfully into fact_sales table. Batch 4 of 250 completed. Rows loaded so far: 8000 of 500000.
+2026-05-31 12:27:44,518 - INFO - Data loaded successfully into fact_sales table. Batch 5 of 250 completed. Rows loaded so far: 10000 of 500000.
+2026-05-31 12:27:44,562 - INFO - Data loaded successfully into fact_sales table. Batch 6 of 250 completed. Rows loaded so far: 12000 of 500000.
+2026-05-31 12:27:44,610 - INFO - Data loaded successfully into fact_sales table. Batch 7 of 250 completed. Rows loaded so far: 14000 of 500000.
+2026-05-31 12:27:44,659 - INFO - Data loaded successfully into fact_sales table. Batch 8 of 250 completed. Rows loaded so far: 16000 of 500000.
+2026-05-31 12:27:44,703 - INFO - Data loaded successfully into fact_sales table. Batch 9 of 250 completed. Rows loaded so far: 18000 of 500000.
+2026-05-31 12:27:44,747 - INFO - Data loaded successfully into fact_sales table. Batch 10 of 250 completed. Rows loaded so far: 20000 of 500000.
+2026-05-31 12:27:44,795 - INFO - Data loaded successfully into fact_sales table. Batch 11 of 250 completed. Rows loaded so far: 22000 of 500000.
+2026-05-31 12:27:44,846 - INFO - Data loaded successfully into fact_sales table. Batch 12 of 250 completed. Rows loaded so far: 24000 of 500000.
+2026-05-31 12:27:44,891 - INFO - Data loaded successfully into fact_sales table. Batch 13 of 250 completed. Rows loaded so far: 26000 of 500000.
+2026-05-31 12:27:44,938 - INFO - Data loaded successfully into fact_sales table. Batch 14 of 250 completed. Rows loaded so far: 28000 of 500000.
+2026-05-31 12:27:44,993 - INFO - Data loaded successfully into fact_sales table. Batch 15 of 250 completed. Rows loaded so far: 30000 of 500000.
+2026-05-31 12:27:45,056 - INFO - Data loaded successfully into fact_sales table. Batch 16 of 250 completed. Rows loaded so far: 32000 of 500000.
+2026-05-31 12:27:45,116 - INFO - Data loaded successfully into fact_sales table. Batch 17 of 250 completed. Rows loaded so far: 34000 of 500000.
+2026-05-31 12:27:45,171 - INFO - Data loaded successfully into fact_sales table. Batch 18 of 250 completed. Rows loaded so far: 36000 of 500000.
+2026-05-31 12:27:45,217 - INFO - Data loaded successfully into fact_sales table. Batch 19 of 250 completed. Rows loaded so far: 38000 of 500000.
+2026-05-31 12:27:45,261 - INFO - Data loaded successfully into fact_sales table. Batch 20 of 250 completed. Rows loaded so far: 40000 of 500000.
+2026-05-31 12:27:45,307 - INFO - Data loaded successfully into fact_sales table. Batch 21 of 250 completed. Rows loaded so far: 42000 of 500000.
+2026-05-31 12:27:45,353 - INFO - Data loaded successfully into fact_sales table. Batch 22 of 250 completed. Rows loaded so far: 44000 of 500000.
+2026-05-31 12:27:45,398 - INFO - Data loaded successfully into fact_sales table. Batch 23 of 250 completed. Rows loaded so far: 46000 of 500000.
+2026-05-31 12:27:45,450 - INFO - Data loaded successfully into fact_sales table. Batch 24 of 250 completed. Rows loaded so far: 48000 of 500000.
+2026-05-31 12:27:45,499 - INFO - Data loaded successfully into fact_sales table. Batch 25 of 250 completed. Rows loaded so far: 50000 of 500000.
+2026-05-31 12:27:45,545 - INFO - Data loaded successfully into fact_sales table. Batch 26 of 250 completed. Rows loaded so far: 52000 of 500000.
+2026-05-31 12:27:45,592 - INFO - Data loaded successfully into fact_sales table. Batch 27 of 250 completed. Rows loaded so far: 54000 of 500000.
+2026-05-31 12:27:45,639 - INFO - Data loaded successfully into fact_sales table. Batch 28 of 250 completed. Rows loaded so far: 56000 of 500000.
+2026-05-31 12:27:45,684 - INFO - Data loaded successfully into fact_sales table. Batch 29 of 250 completed. Rows loaded so far: 58000 of 500000.
+2026-05-31 12:27:45,729 - INFO - Data loaded successfully into fact_sales table. Batch 30 of 250 completed. Rows loaded so far: 60000 of 500000.
+2026-05-31 12:27:45,777 - INFO - Data loaded successfully into fact_sales table. Batch 31 of 250 completed. Rows loaded so far: 62000 of 500000.
+2026-05-31 12:27:45,825 - INFO - Data loaded successfully into fact_sales table. Batch 32 of 250 completed. Rows loaded so far: 64000 of 500000.
+2026-05-31 12:27:45,869 - INFO - Data loaded successfully into fact_sales table. Batch 33 of 250 completed. Rows loaded so far: 66000 of 500000.
+2026-05-31 12:27:45,919 - INFO - Data loaded successfully into fact_sales table. Batch 34 of 250 completed. Rows loaded so far: 68000 of 500000.
+2026-05-31 12:27:45,969 - INFO - Data loaded successfully into fact_sales table. Batch 35 of 250 completed. Rows loaded so far: 70000 of 500000.
+2026-05-31 12:27:46,017 - INFO - Data loaded successfully into fact_sales table. Batch 36 of 250 completed. Rows loaded so far: 72000 of 500000.
+2026-05-31 12:27:46,066 - INFO - Data loaded successfully into fact_sales table. Batch 37 of 250 completed. Rows loaded so far: 74000 of 500000.
+2026-05-31 12:27:46,113 - INFO - Data loaded successfully into fact_sales table. Batch 38 of 250 completed. Rows loaded so far: 76000 of 500000.
+2026-05-31 12:27:46,158 - INFO - Data loaded successfully into fact_sales table. Batch 39 of 250 completed. Rows loaded so far: 78000 of 500000.
+2026-05-31 12:27:46,204 - INFO - Data loaded successfully into fact_sales table. Batch 40 of 250 completed. Rows loaded so far: 80000 of 500000.
+2026-05-31 12:27:46,251 - INFO - Data loaded successfully into fact_sales table. Batch 41 of 250 completed. Rows loaded so far: 82000 of 500000.
+2026-05-31 12:27:46,331 - INFO - Data loaded successfully into fact_sales table. Batch 42 of 250 completed. Rows loaded so far: 84000 of 500000.
+2026-05-31 12:27:46,380 - INFO - Data loaded successfully into fact_sales table. Batch 43 of 250 completed. Rows loaded so far: 86000 of 500000.
+2026-05-31 12:27:46,426 - INFO - Data loaded successfully into fact_sales table. Batch 44 of 250 completed. Rows loaded so far: 88000 of 500000.
+2026-05-31 12:27:46,486 - INFO - Data loaded successfully into fact_sales table. Batch 45 of 250 completed. Rows loaded so far: 90000 of 500000.
+2026-05-31 12:27:46,532 - INFO - Data loaded successfully into fact_sales table. Batch 46 of 250 completed. Rows loaded so far: 92000 of 500000.
+2026-05-31 12:27:46,577 - INFO - Data loaded successfully into fact_sales table. Batch 47 of 250 completed. Rows loaded so far: 94000 of 500000.
+2026-05-31 12:27:46,623 - INFO - Data loaded successfully into fact_sales table. Batch 48 of 250 completed. Rows loaded so far: 96000 of 500000.
+2026-05-31 12:27:46,671 - INFO - Data loaded successfully into fact_sales table. Batch 49 of 250 completed. Rows loaded so far: 98000 of 500000.
+2026-05-31 12:27:46,720 - INFO - Data loaded successfully into fact_sales table. Batch 50 of 250 completed. Rows loaded so far: 100000 of 500000.
+2026-05-31 12:27:46,764 - INFO - Data loaded successfully into fact_sales table. Batch 51 of 250 completed. Rows loaded so far: 102000 of 500000.
+2026-05-31 12:27:46,813 - INFO - Data loaded successfully into fact_sales table. Batch 52 of 250 completed. Rows loaded so far: 104000 of 500000.
+2026-05-31 12:27:46,862 - INFO - Data loaded successfully into fact_sales table. Batch 53 of 250 completed. Rows loaded so far: 106000 of 500000.
+2026-05-31 12:27:46,909 - INFO - Data loaded successfully into fact_sales table. Batch 54 of 250 completed. Rows loaded so far: 108000 of 500000.
+2026-05-31 12:27:46,962 - INFO - Data loaded successfully into fact_sales table. Batch 55 of 250 completed. Rows loaded so far: 110000 of 500000.
+2026-05-31 12:27:47,007 - INFO - Data loaded successfully into fact_sales table. Batch 56 of 250 completed. Rows loaded so far: 112000 of 500000.
+2026-05-31 12:27:47,052 - INFO - Data loaded successfully into fact_sales table. Batch 57 of 250 completed. Rows loaded so far: 114000 of 500000.
+2026-05-31 12:27:47,098 - INFO - Data loaded successfully into fact_sales table. Batch 58 of 250 completed. Rows loaded so far: 116000 of 500000.
+2026-05-31 12:27:47,143 - INFO - Data loaded successfully into fact_sales table. Batch 59 of 250 completed. Rows loaded so far: 118000 of 500000.
+2026-05-31 12:27:47,188 - INFO - Data loaded successfully into fact_sales table. Batch 60 of 250 completed. Rows loaded so far: 120000 of 500000.
+2026-05-31 12:27:47,233 - INFO - Data loaded successfully into fact_sales table. Batch 61 of 250 completed. Rows loaded so far: 122000 of 500000.
+2026-05-31 12:27:47,279 - INFO - Data loaded successfully into fact_sales table. Batch 62 of 250 completed. Rows loaded so far: 124000 of 500000.
+2026-05-31 12:27:47,328 - INFO - Data loaded successfully into fact_sales table. Batch 63 of 250 completed. Rows loaded so far: 126000 of 500000.
+2026-05-31 12:27:47,374 - INFO - Data loaded successfully into fact_sales table. Batch 64 of 250 completed. Rows loaded so far: 128000 of 500000.
+2026-05-31 12:27:47,424 - INFO - Data loaded successfully into fact_sales table. Batch 65 of 250 completed. Rows loaded so far: 130000 of 500000.
+2026-05-31 12:27:47,484 - INFO - Data loaded successfully into fact_sales table. Batch 66 of 250 completed. Rows loaded so far: 132000 of 500000.
+2026-05-31 12:27:47,532 - INFO - Data loaded successfully into fact_sales table. Batch 67 of 250 completed. Rows loaded so far: 134000 of 500000.
+2026-05-31 12:27:47,577 - INFO - Data loaded successfully into fact_sales table. Batch 68 of 250 completed. Rows loaded so far: 136000 of 500000.
+2026-05-31 12:27:47,626 - INFO - Data loaded successfully into fact_sales table. Batch 69 of 250 completed. Rows loaded so far: 138000 of 500000.
+2026-05-31 12:27:47,673 - INFO - Data loaded successfully into fact_sales table. Batch 70 of 250 completed. Rows loaded so far: 140000 of 500000.
+2026-05-31 12:27:47,724 - INFO - Data loaded successfully into fact_sales table. Batch 71 of 250 completed. Rows loaded so far: 142000 of 500000.
+2026-05-31 12:27:47,769 - INFO - Data loaded successfully into fact_sales table. Batch 72 of 250 completed. Rows loaded so far: 144000 of 500000.
+2026-05-31 12:27:47,816 - INFO - Data loaded successfully into fact_sales table. Batch 73 of 250 completed. Rows loaded so far: 146000 of 500000.
+2026-05-31 12:27:47,862 - INFO - Data loaded successfully into fact_sales table. Batch 74 of 250 completed. Rows loaded so far: 148000 of 500000.
+2026-05-31 12:27:47,910 - INFO - Data loaded successfully into fact_sales table. Batch 75 of 250 completed. Rows loaded so far: 150000 of 500000.
+2026-05-31 12:27:47,957 - INFO - Data loaded successfully into fact_sales table. Batch 76 of 250 completed. Rows loaded so far: 152000 of 500000.
+2026-05-31 12:27:48,007 - INFO - Data loaded successfully into fact_sales table. Batch 77 of 250 completed. Rows loaded so far: 154000 of 500000.
+2026-05-31 12:27:48,054 - INFO - Data loaded successfully into fact_sales table. Batch 78 of 250 completed. Rows loaded so far: 156000 of 500000.
+2026-05-31 12:27:48,100 - INFO - Data loaded successfully into fact_sales table. Batch 79 of 250 completed. Rows loaded so far: 158000 of 500000.
+2026-05-31 12:27:48,146 - INFO - Data loaded successfully into fact_sales table. Batch 80 of 250 completed. Rows loaded so far: 160000 of 500000.
+2026-05-31 12:27:48,195 - INFO - Data loaded successfully into fact_sales table. Batch 81 of 250 completed. Rows loaded so far: 162000 of 500000.
+2026-05-31 12:27:48,245 - INFO - Data loaded successfully into fact_sales table. Batch 82 of 250 completed. Rows loaded so far: 164000 of 500000.
+2026-05-31 12:27:48,293 - INFO - Data loaded successfully into fact_sales table. Batch 83 of 250 completed. Rows loaded so far: 166000 of 500000.
+2026-05-31 12:27:48,340 - INFO - Data loaded successfully into fact_sales table. Batch 84 of 250 completed. Rows loaded so far: 168000 of 500000.
+2026-05-31 12:27:48,388 - INFO - Data loaded successfully into fact_sales table. Batch 85 of 250 completed. Rows loaded so far: 170000 of 500000.
+2026-05-31 12:27:48,435 - INFO - Data loaded successfully into fact_sales table. Batch 86 of 250 completed. Rows loaded so far: 172000 of 500000.
+2026-05-31 12:27:48,504 - INFO - Data loaded successfully into fact_sales table. Batch 87 of 250 completed. Rows loaded so far: 174000 of 500000.
+2026-05-31 12:27:48,560 - INFO - Data loaded successfully into fact_sales table. Batch 88 of 250 completed. Rows loaded so far: 176000 of 500000.
+2026-05-31 12:27:48,605 - INFO - Data loaded successfully into fact_sales table. Batch 89 of 250 completed. Rows loaded so far: 178000 of 500000.
+2026-05-31 12:27:48,654 - INFO - Data loaded successfully into fact_sales table. Batch 90 of 250 completed. Rows loaded so far: 180000 of 500000.
+2026-05-31 12:27:48,701 - INFO - Data loaded successfully into fact_sales table. Batch 91 of 250 completed. Rows loaded so far: 182000 of 500000.
+2026-05-31 12:27:48,749 - INFO - Data loaded successfully into fact_sales table. Batch 92 of 250 completed. Rows loaded so far: 184000 of 500000.
+2026-05-31 12:27:48,793 - INFO - Data loaded successfully into fact_sales table. Batch 93 of 250 completed. Rows loaded so far: 186000 of 500000.
+2026-05-31 12:27:48,840 - INFO - Data loaded successfully into fact_sales table. Batch 94 of 250 completed. Rows loaded so far: 188000 of 500000.
+2026-05-31 12:27:48,887 - INFO - Data loaded successfully into fact_sales table. Batch 95 of 250 completed. Rows loaded so far: 190000 of 500000.
+2026-05-31 12:27:48,934 - INFO - Data loaded successfully into fact_sales table. Batch 96 of 250 completed. Rows loaded so far: 192000 of 500000.
+2026-05-31 12:27:48,982 - INFO - Data loaded successfully into fact_sales table. Batch 97 of 250 completed. Rows loaded so far: 194000 of 500000.
+2026-05-31 12:27:49,034 - INFO - Data loaded successfully into fact_sales table. Batch 98 of 250 completed. Rows loaded so far: 196000 of 500000.
+2026-05-31 12:27:49,083 - INFO - Data loaded successfully into fact_sales table. Batch 99 of 250 completed. Rows loaded so far: 198000 of 500000.
+2026-05-31 12:27:49,131 - INFO - Data loaded successfully into fact_sales table. Batch 100 of 250 completed. Rows loaded so far: 200000 of 500000.
+2026-05-31 12:27:49,176 - INFO - Data loaded successfully into fact_sales table. Batch 101 of 250 completed. Rows loaded so far: 202000 of 500000.
+2026-05-31 12:27:49,226 - INFO - Data loaded successfully into fact_sales table. Batch 102 of 250 completed. Rows loaded so far: 204000 of 500000.
+2026-05-31 12:27:49,276 - INFO - Data loaded successfully into fact_sales table. Batch 103 of 250 completed. Rows loaded so far: 206000 of 500000.
+2026-05-31 12:27:49,323 - INFO - Data loaded successfully into fact_sales table. Batch 104 of 250 completed. Rows loaded so far: 208000 of 500000.
+2026-05-31 12:27:49,369 - INFO - Data loaded successfully into fact_sales table. Batch 105 of 250 completed. Rows loaded so far: 210000 of 500000.
+2026-05-31 12:27:49,413 - INFO - Data loaded successfully into fact_sales table. Batch 106 of 250 completed. Rows loaded so far: 212000 of 500000.
+2026-05-31 12:27:49,460 - INFO - Data loaded successfully into fact_sales table. Batch 107 of 250 completed. Rows loaded so far: 214000 of 500000.
+2026-05-31 12:27:49,518 - INFO - Data loaded successfully into fact_sales table. Batch 108 of 250 completed. Rows loaded so far: 216000 of 500000.
+2026-05-31 12:27:49,567 - INFO - Data loaded successfully into fact_sales table. Batch 109 of 250 completed. Rows loaded so far: 218000 of 500000.
+2026-05-31 12:27:49,613 - INFO - Data loaded successfully into fact_sales table. Batch 110 of 250 completed. Rows loaded so far: 220000 of 500000.
+2026-05-31 12:27:49,662 - INFO - Data loaded successfully into fact_sales table. Batch 111 of 250 completed. Rows loaded so far: 222000 of 500000.
+2026-05-31 12:27:49,721 - INFO - Data loaded successfully into fact_sales table. Batch 112 of 250 completed. Rows loaded so far: 224000 of 500000.
+2026-05-31 12:27:49,769 - INFO - Data loaded successfully into fact_sales table. Batch 113 of 250 completed. Rows loaded so far: 226000 of 500000.
+2026-05-31 12:27:49,821 - INFO - Data loaded successfully into fact_sales table. Batch 114 of 250 completed. Rows loaded so far: 228000 of 500000.
+2026-05-31 12:27:49,871 - INFO - Data loaded successfully into fact_sales table. Batch 115 of 250 completed. Rows loaded so far: 230000 of 500000.
+2026-05-31 12:27:49,916 - INFO - Data loaded successfully into fact_sales table. Batch 116 of 250 completed. Rows loaded so far: 232000 of 500000.
+2026-05-31 12:27:49,964 - INFO - Data loaded successfully into fact_sales table. Batch 117 of 250 completed. Rows loaded so far: 234000 of 500000.
+2026-05-31 12:27:50,009 - INFO - Data loaded successfully into fact_sales table. Batch 118 of 250 completed. Rows loaded so far: 236000 of 500000.
+2026-05-31 12:27:50,059 - INFO - Data loaded successfully into fact_sales table. Batch 119 of 250 completed. Rows loaded so far: 238000 of 500000.
+2026-05-31 12:27:50,109 - INFO - Data loaded successfully into fact_sales table. Batch 120 of 250 completed. Rows loaded so far: 240000 of 500000.
+2026-05-31 12:27:50,157 - INFO - Data loaded successfully into fact_sales table. Batch 121 of 250 completed. Rows loaded so far: 242000 of 500000.
+2026-05-31 12:27:50,202 - INFO - Data loaded successfully into fact_sales table. Batch 122 of 250 completed. Rows loaded so far: 244000 of 500000.
+2026-05-31 12:27:50,248 - INFO - Data loaded successfully into fact_sales table. Batch 123 of 250 completed. Rows loaded so far: 246000 of 500000.
+2026-05-31 12:27:50,295 - INFO - Data loaded successfully into fact_sales table. Batch 124 of 250 completed. Rows loaded so far: 248000 of 500000.
+2026-05-31 12:27:50,343 - INFO - Data loaded successfully into fact_sales table. Batch 125 of 250 completed. Rows loaded so far: 250000 of 500000.
+2026-05-31 12:27:50,390 - INFO - Data loaded successfully into fact_sales table. Batch 126 of 250 completed. Rows loaded so far: 252000 of 500000.
+2026-05-31 12:27:50,437 - INFO - Data loaded successfully into fact_sales table. Batch 127 of 250 completed. Rows loaded so far: 254000 of 500000.
+2026-05-31 12:27:50,485 - INFO - Data loaded successfully into fact_sales table. Batch 128 of 250 completed. Rows loaded so far: 256000 of 500000.
+2026-05-31 12:27:50,548 - INFO - Data loaded successfully into fact_sales table. Batch 129 of 250 completed. Rows loaded so far: 258000 of 500000.
+2026-05-31 12:27:50,597 - INFO - Data loaded successfully into fact_sales table. Batch 130 of 250 completed. Rows loaded so far: 260000 of 500000.
+2026-05-31 12:27:50,643 - INFO - Data loaded successfully into fact_sales table. Batch 131 of 250 completed. Rows loaded so far: 262000 of 500000.
+2026-05-31 12:27:50,717 - INFO - Data loaded successfully into fact_sales table. Batch 132 of 250 completed. Rows loaded so far: 264000 of 500000.
+2026-05-31 12:27:50,770 - INFO - Data loaded successfully into fact_sales table. Batch 133 of 250 completed. Rows loaded so far: 266000 of 500000.
+2026-05-31 12:27:50,820 - INFO - Data loaded successfully into fact_sales table. Batch 134 of 250 completed. Rows loaded so far: 268000 of 500000.
+2026-05-31 12:27:50,871 - INFO - Data loaded successfully into fact_sales table. Batch 135 of 250 completed. Rows loaded so far: 270000 of 500000.
+2026-05-31 12:27:50,919 - INFO - Data loaded successfully into fact_sales table. Batch 136 of 250 completed. Rows loaded so far: 272000 of 500000.
+2026-05-31 12:27:50,968 - INFO - Data loaded successfully into fact_sales table. Batch 137 of 250 completed. Rows loaded so far: 274000 of 500000.
+2026-05-31 12:27:51,016 - INFO - Data loaded successfully into fact_sales table. Batch 138 of 250 completed. Rows loaded so far: 276000 of 500000.
+2026-05-31 12:27:51,066 - INFO - Data loaded successfully into fact_sales table. Batch 139 of 250 completed. Rows loaded so far: 278000 of 500000.
+2026-05-31 12:27:51,117 - INFO - Data loaded successfully into fact_sales table. Batch 140 of 250 completed. Rows loaded so far: 280000 of 500000.
+2026-05-31 12:27:51,164 - INFO - Data loaded successfully into fact_sales table. Batch 141 of 250 completed. Rows loaded so far: 282000 of 500000.
+2026-05-31 12:27:51,212 - INFO - Data loaded successfully into fact_sales table. Batch 142 of 250 completed. Rows loaded so far: 284000 of 500000.
+2026-05-31 12:27:51,260 - INFO - Data loaded successfully into fact_sales table. Batch 143 of 250 completed. Rows loaded so far: 286000 of 500000.
+2026-05-31 12:27:51,307 - INFO - Data loaded successfully into fact_sales table. Batch 144 of 250 completed. Rows loaded so far: 288000 of 500000.
+2026-05-31 12:27:51,353 - INFO - Data loaded successfully into fact_sales table. Batch 145 of 250 completed. Rows loaded so far: 290000 of 500000.
+2026-05-31 12:27:51,401 - INFO - Data loaded successfully into fact_sales table. Batch 146 of 250 completed. Rows loaded so far: 292000 of 500000.
+2026-05-31 12:27:51,449 - INFO - Data loaded successfully into fact_sales table. Batch 147 of 250 completed. Rows loaded so far: 294000 of 500000.
+2026-05-31 12:27:51,500 - INFO - Data loaded successfully into fact_sales table. Batch 148 of 250 completed. Rows loaded so far: 296000 of 500000.
+2026-05-31 12:27:51,565 - INFO - Data loaded successfully into fact_sales table. Batch 149 of 250 completed. Rows loaded so far: 298000 of 500000.
+2026-05-31 12:27:51,610 - INFO - Data loaded successfully into fact_sales table. Batch 150 of 250 completed. Rows loaded so far: 300000 of 500000.
+2026-05-31 12:27:51,660 - INFO - Data loaded successfully into fact_sales table. Batch 151 of 250 completed. Rows loaded so far: 302000 of 500000.
+2026-05-31 12:27:51,707 - INFO - Data loaded successfully into fact_sales table. Batch 152 of 250 completed. Rows loaded so far: 304000 of 500000.
+2026-05-31 12:27:51,755 - INFO - Data loaded successfully into fact_sales table. Batch 153 of 250 completed. Rows loaded so far: 306000 of 500000.
+2026-05-31 12:27:51,805 - INFO - Data loaded successfully into fact_sales table. Batch 154 of 250 completed. Rows loaded so far: 308000 of 500000.
+2026-05-31 12:27:51,852 - INFO - Data loaded successfully into fact_sales table. Batch 155 of 250 completed. Rows loaded so far: 310000 of 500000.
+2026-05-31 12:27:51,899 - INFO - Data loaded successfully into fact_sales table. Batch 156 of 250 completed. Rows loaded so far: 312000 of 500000.
+2026-05-31 12:27:51,944 - INFO - Data loaded successfully into fact_sales table. Batch 157 of 250 completed. Rows loaded so far: 314000 of 500000.
+2026-05-31 12:27:51,990 - INFO - Data loaded successfully into fact_sales table. Batch 158 of 250 completed. Rows loaded so far: 316000 of 500000.
+2026-05-31 12:27:52,037 - INFO - Data loaded successfully into fact_sales table. Batch 159 of 250 completed. Rows loaded so far: 318000 of 500000.
+2026-05-31 12:27:52,084 - INFO - Data loaded successfully into fact_sales table. Batch 160 of 250 completed. Rows loaded so far: 320000 of 500000.
+2026-05-31 12:27:52,136 - INFO - Data loaded successfully into fact_sales table. Batch 161 of 250 completed. Rows loaded so far: 322000 of 500000.
+2026-05-31 12:27:52,186 - INFO - Data loaded successfully into fact_sales table. Batch 162 of 250 completed. Rows loaded so far: 324000 of 500000.
+2026-05-31 12:27:52,233 - INFO - Data loaded successfully into fact_sales table. Batch 163 of 250 completed. Rows loaded so far: 326000 of 500000.
+2026-05-31 12:27:52,286 - INFO - Data loaded successfully into fact_sales table. Batch 164 of 250 completed. Rows loaded so far: 328000 of 500000.
+2026-05-31 12:27:52,480 - INFO - Data loaded successfully into fact_sales table. Batch 165 of 250 completed. Rows loaded so far: 330000 of 500000.
+2026-05-31 12:27:52,554 - INFO - Data loaded successfully into fact_sales table. Batch 166 of 250 completed. Rows loaded so far: 332000 of 500000.
+2026-05-31 12:27:52,627 - INFO - Data loaded successfully into fact_sales table. Batch 167 of 250 completed. Rows loaded so far: 334000 of 500000.
+2026-05-31 12:27:52,681 - INFO - Data loaded successfully into fact_sales table. Batch 168 of 250 completed. Rows loaded so far: 336000 of 500000.
+2026-05-31 12:27:52,727 - INFO - Data loaded successfully into fact_sales table. Batch 169 of 250 completed. Rows loaded so far: 338000 of 500000.
+2026-05-31 12:27:52,774 - INFO - Data loaded successfully into fact_sales table. Batch 170 of 250 completed. Rows loaded so far: 340000 of 500000.
+2026-05-31 12:27:52,826 - INFO - Data loaded successfully into fact_sales table. Batch 171 of 250 completed. Rows loaded so far: 342000 of 500000.
+2026-05-31 12:27:52,891 - INFO - Data loaded successfully into fact_sales table. Batch 172 of 250 completed. Rows loaded so far: 344000 of 500000.
+2026-05-31 12:27:52,948 - INFO - Data loaded successfully into fact_sales table. Batch 173 of 250 completed. Rows loaded so far: 346000 of 500000.
+2026-05-31 12:27:52,993 - INFO - Data loaded successfully into fact_sales table. Batch 174 of 250 completed. Rows loaded so far: 348000 of 500000.
+2026-05-31 12:27:53,047 - INFO - Data loaded successfully into fact_sales table. Batch 175 of 250 completed. Rows loaded so far: 350000 of 500000.
+2026-05-31 12:27:53,091 - INFO - Data loaded successfully into fact_sales table. Batch 176 of 250 completed. Rows loaded so far: 352000 of 500000.
+2026-05-31 12:27:53,142 - INFO - Data loaded successfully into fact_sales table. Batch 177 of 250 completed. Rows loaded so far: 354000 of 500000.
+2026-05-31 12:27:53,190 - INFO - Data loaded successfully into fact_sales table. Batch 178 of 250 completed. Rows loaded so far: 356000 of 500000.
+2026-05-31 12:27:53,240 - INFO - Data loaded successfully into fact_sales table. Batch 179 of 250 completed. Rows loaded so far: 358000 of 500000.
+2026-05-31 12:27:53,298 - INFO - Data loaded successfully into fact_sales table. Batch 180 of 250 completed. Rows loaded so far: 360000 of 500000.
+2026-05-31 12:27:53,360 - INFO - Data loaded successfully into fact_sales table. Batch 181 of 250 completed. Rows loaded so far: 362000 of 500000.
+2026-05-31 12:27:53,435 - INFO - Data loaded successfully into fact_sales table. Batch 182 of 250 completed. Rows loaded so far: 364000 of 500000.
+2026-05-31 12:27:53,478 - INFO - Data loaded successfully into fact_sales table. Batch 183 of 250 completed. Rows loaded so far: 366000 of 500000.
+2026-05-31 12:27:53,525 - INFO - Data loaded successfully into fact_sales table. Batch 184 of 250 completed. Rows loaded so far: 368000 of 500000.
+2026-05-31 12:27:53,611 - INFO - Data loaded successfully into fact_sales table. Batch 185 of 250 completed. Rows loaded so far: 370000 of 500000.
+2026-05-31 12:27:53,657 - INFO - Data loaded successfully into fact_sales table. Batch 186 of 250 completed. Rows loaded so far: 372000 of 500000.
+2026-05-31 12:27:53,702 - INFO - Data loaded successfully into fact_sales table. Batch 187 of 250 completed. Rows loaded so far: 374000 of 500000.
+2026-05-31 12:27:53,746 - INFO - Data loaded successfully into fact_sales table. Batch 188 of 250 completed. Rows loaded so far: 376000 of 500000.
+2026-05-31 12:27:53,793 - INFO - Data loaded successfully into fact_sales table. Batch 189 of 250 completed. Rows loaded so far: 378000 of 500000.
+2026-05-31 12:27:53,842 - INFO - Data loaded successfully into fact_sales table. Batch 190 of 250 completed. Rows loaded so far: 380000 of 500000.
+2026-05-31 12:27:53,888 - INFO - Data loaded successfully into fact_sales table. Batch 191 of 250 completed. Rows loaded so far: 382000 of 500000.
+2026-05-31 12:27:53,935 - INFO - Data loaded successfully into fact_sales table. Batch 192 of 250 completed. Rows loaded so far: 384000 of 500000.
+2026-05-31 12:27:53,981 - INFO - Data loaded successfully into fact_sales table. Batch 193 of 250 completed. Rows loaded so far: 386000 of 500000.
+2026-05-31 12:27:54,027 - INFO - Data loaded successfully into fact_sales table. Batch 194 of 250 completed. Rows loaded so far: 388000 of 500000.
+2026-05-31 12:27:54,072 - INFO - Data loaded successfully into fact_sales table. Batch 195 of 250 completed. Rows loaded so far: 390000 of 500000.
+2026-05-31 12:27:54,119 - INFO - Data loaded successfully into fact_sales table. Batch 196 of 250 completed. Rows loaded so far: 392000 of 500000.
+2026-05-31 12:27:54,169 - INFO - Data loaded successfully into fact_sales table. Batch 197 of 250 completed. Rows loaded so far: 394000 of 500000.
+2026-05-31 12:27:54,217 - INFO - Data loaded successfully into fact_sales table. Batch 198 of 250 completed. Rows loaded so far: 396000 of 500000.
+2026-05-31 12:27:54,272 - INFO - Data loaded successfully into fact_sales table. Batch 199 of 250 completed. Rows loaded so far: 398000 of 500000.
+2026-05-31 12:27:54,325 - INFO - Data loaded successfully into fact_sales table. Batch 200 of 250 completed. Rows loaded so far: 400000 of 500000.
+2026-05-31 12:27:54,369 - INFO - Data loaded successfully into fact_sales table. Batch 201 of 250 completed. Rows loaded so far: 402000 of 500000.
+2026-05-31 12:27:54,413 - INFO - Data loaded successfully into fact_sales table. Batch 202 of 250 completed. Rows loaded so far: 404000 of 500000.
+2026-05-31 12:27:54,455 - INFO - Data loaded successfully into fact_sales table. Batch 203 of 250 completed. Rows loaded so far: 406000 of 500000.
+2026-05-31 12:27:54,502 - INFO - Data loaded successfully into fact_sales table. Batch 204 of 250 completed. Rows loaded so far: 408000 of 500000.
+2026-05-31 12:27:54,568 - INFO - Data loaded successfully into fact_sales table. Batch 205 of 250 completed. Rows loaded so far: 410000 of 500000.
+2026-05-31 12:27:54,615 - INFO - Data loaded successfully into fact_sales table. Batch 206 of 250 completed. Rows loaded so far: 412000 of 500000.
+2026-05-31 12:27:54,659 - INFO - Data loaded successfully into fact_sales table. Batch 207 of 250 completed. Rows loaded so far: 414000 of 500000.
+2026-05-31 12:27:54,710 - INFO - Data loaded successfully into fact_sales table. Batch 208 of 250 completed. Rows loaded so far: 416000 of 500000.
+2026-05-31 12:27:54,754 - INFO - Data loaded successfully into fact_sales table. Batch 209 of 250 completed. Rows loaded so far: 418000 of 500000.
+2026-05-31 12:27:54,800 - INFO - Data loaded successfully into fact_sales table. Batch 210 of 250 completed. Rows loaded so far: 420000 of 500000.
+2026-05-31 12:27:54,850 - INFO - Data loaded successfully into fact_sales table. Batch 211 of 250 completed. Rows loaded so far: 422000 of 500000.
+2026-05-31 12:27:54,896 - INFO - Data loaded successfully into fact_sales table. Batch 212 of 250 completed. Rows loaded so far: 424000 of 500000.
+2026-05-31 12:27:54,944 - INFO - Data loaded successfully into fact_sales table. Batch 213 of 250 completed. Rows loaded so far: 426000 of 500000.
+2026-05-31 12:27:54,991 - INFO - Data loaded successfully into fact_sales table. Batch 214 of 250 completed. Rows loaded so far: 428000 of 500000.
+2026-05-31 12:27:55,035 - INFO - Data loaded successfully into fact_sales table. Batch 215 of 250 completed. Rows loaded so far: 430000 of 500000.
+2026-05-31 12:27:55,105 - INFO - Data loaded successfully into fact_sales table. Batch 216 of 250 completed. Rows loaded so far: 432000 of 500000.
+2026-05-31 12:27:55,165 - INFO - Data loaded successfully into fact_sales table. Batch 217 of 250 completed. Rows loaded so far: 434000 of 500000.
+2026-05-31 12:27:55,220 - INFO - Data loaded successfully into fact_sales table. Batch 218 of 250 completed. Rows loaded so far: 436000 of 500000.
+2026-05-31 12:27:55,270 - INFO - Data loaded successfully into fact_sales table. Batch 219 of 250 completed. Rows loaded so far: 438000 of 500000.
+2026-05-31 12:27:55,320 - INFO - Data loaded successfully into fact_sales table. Batch 220 of 250 completed. Rows loaded so far: 440000 of 500000.
+2026-05-31 12:27:55,368 - INFO - Data loaded successfully into fact_sales table. Batch 221 of 250 completed. Rows loaded so far: 442000 of 500000.
+2026-05-31 12:27:55,414 - INFO - Data loaded successfully into fact_sales table. Batch 222 of 250 completed. Rows loaded so far: 444000 of 500000.
+2026-05-31 12:27:55,460 - INFO - Data loaded successfully into fact_sales table. Batch 223 of 250 completed. Rows loaded so far: 446000 of 500000.
+2026-05-31 12:27:55,503 - INFO - Data loaded successfully into fact_sales table. Batch 224 of 250 completed. Rows loaded so far: 448000 of 500000.
+2026-05-31 12:27:55,566 - INFO - Data loaded successfully into fact_sales table. Batch 225 of 250 completed. Rows loaded so far: 450000 of 500000.
+2026-05-31 12:27:55,626 - INFO - Data loaded successfully into fact_sales table. Batch 226 of 250 completed. Rows loaded so far: 452000 of 500000.
+2026-05-31 12:27:55,673 - INFO - Data loaded successfully into fact_sales table. Batch 227 of 250 completed. Rows loaded so far: 454000 of 500000.
+2026-05-31 12:27:55,721 - INFO - Data loaded successfully into fact_sales table. Batch 228 of 250 completed. Rows loaded so far: 456000 of 500000.
+2026-05-31 12:27:55,765 - INFO - Data loaded successfully into fact_sales table. Batch 229 of 250 completed. Rows loaded so far: 458000 of 500000.
+2026-05-31 12:27:55,810 - INFO - Data loaded successfully into fact_sales table. Batch 230 of 250 completed. Rows loaded so far: 460000 of 500000.
+2026-05-31 12:27:55,854 - INFO - Data loaded successfully into fact_sales table. Batch 231 of 250 completed. Rows loaded so far: 462000 of 500000.
+2026-05-31 12:27:55,906 - INFO - Data loaded successfully into fact_sales table. Batch 232 of 250 completed. Rows loaded so far: 464000 of 500000.
+2026-05-31 12:27:55,954 - INFO - Data loaded successfully into fact_sales table. Batch 233 of 250 completed. Rows loaded so far: 466000 of 500000.
+2026-05-31 12:27:56,003 - INFO - Data loaded successfully into fact_sales table. Batch 234 of 250 completed. Rows loaded so far: 468000 of 500000.
+2026-05-31 12:27:56,049 - INFO - Data loaded successfully into fact_sales table. Batch 235 of 250 completed. Rows loaded so far: 470000 of 500000.
+2026-05-31 12:27:56,096 - INFO - Data loaded successfully into fact_sales table. Batch 236 of 250 completed. Rows loaded so far: 472000 of 500000.
+2026-05-31 12:27:56,145 - INFO - Data loaded successfully into fact_sales table. Batch 237 of 250 completed. Rows loaded so far: 474000 of 500000.
+2026-05-31 12:27:56,192 - INFO - Data loaded successfully into fact_sales table. Batch 238 of 250 completed. Rows loaded so far: 476000 of 500000.
+2026-05-31 12:27:56,245 - INFO - Data loaded successfully into fact_sales table. Batch 239 of 250 completed. Rows loaded so far: 478000 of 500000.
+2026-05-31 12:27:56,291 - INFO - Data loaded successfully into fact_sales table. Batch 240 of 250 completed. Rows loaded so far: 480000 of 500000.
+2026-05-31 12:27:56,339 - INFO - Data loaded successfully into fact_sales table. Batch 241 of 250 completed. Rows loaded so far: 482000 of 500000.
+2026-05-31 12:27:56,397 - INFO - Data loaded successfully into fact_sales table. Batch 242 of 250 completed. Rows loaded so far: 484000 of 500000.
+2026-05-31 12:27:56,456 - INFO - Data loaded successfully into fact_sales table. Batch 243 of 250 completed. Rows loaded so far: 486000 of 500000.
+2026-05-31 12:27:56,502 - INFO - Data loaded successfully into fact_sales table. Batch 244 of 250 completed. Rows loaded so far: 488000 of 500000.
+2026-05-31 12:27:56,549 - INFO - Data loaded successfully into fact_sales table. Batch 245 of 250 completed. Rows loaded so far: 490000 of 500000.
+2026-05-31 12:27:56,619 - INFO - Data loaded successfully into fact_sales table. Batch 246 of 250 completed. Rows loaded so far: 492000 of 500000.
+2026-05-31 12:27:56,666 - INFO - Data loaded successfully into fact_sales table. Batch 247 of 250 completed. Rows loaded so far: 494000 of 500000.
+2026-05-31 12:27:56,713 - INFO - Data loaded successfully into fact_sales table. Batch 248 of 250 completed. Rows loaded so far: 496000 of 500000.
+2026-05-31 12:27:56,757 - INFO - Data loaded successfully into fact_sales table. Batch 249 of 250 completed. Rows loaded so far: 498000 of 500000.
+2026-05-31 12:27:56,805 - INFO - Data loaded successfully into fact_sales table. Batch 250 of 250 completed. Rows loaded so far: 500000 of 500000.
+2026-05-31 12:27:56,805 - INFO - Data loaded successfully into fact_sales table.
+2026-05-31 12:27:56,805 - INFO - Database cursor closed after processing fact_sales table.
+2026-05-31 12:27:56,885 - INFO - Fact sales data loaded successfully.
+2026-05-31 12:27:56,885 - INFO - Warehouse pipeline completed.
